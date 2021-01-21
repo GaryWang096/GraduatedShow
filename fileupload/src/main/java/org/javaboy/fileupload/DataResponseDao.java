@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Repository
 public class DataResponseDao {
     @Autowired
     TopicEntityMapper topicEntityMapper;

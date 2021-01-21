@@ -2,7 +2,7 @@ spring:
   datasource:
     name: graduate_db
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://127.0.0.1:3306/graduate_db?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1:3306/graduate_db?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: "00000000"
     driver-class-name: com.mysql.cj.jdbc.Driver

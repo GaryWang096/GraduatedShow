@@ -1,17 +1,28 @@
 package org.javaboy.fileupload;
 
+import java.util.Date;
+
 public class TopicData {
-    String topicId;
+    Integer topicId;
     String content;
     String tag;
     String title;
     String imgUrl;
+    Date createTime;
 
-    public String getTopicId() {
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
+    public Integer getTopicId() {
         return topicId;
     }
 
-    public void setTopicId(String topicId) {
+    public void setTopicId(Integer topicId) {
         this.topicId = topicId;
     }
 
